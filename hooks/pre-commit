@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "****PRE-COMMIT****"
+deno test
+deno lint
+
+echo "****SUCCESSFUL COMMIT****"
